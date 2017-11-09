@@ -1,0 +1,37 @@
+@media only screen and (max-width: 700px) 
+{
+  	.dugmad input 
+	{
+		display:block;
+		margin-left:-3%;
+		border-radius:0;
+	}
+	table 
+	{
+		border: 1px solid;
+		border-color: #8B4513;
+		border-spacing: 0;
+		text-align: center;
+		width: 300px;
+		height: 100px;
+	}
+	th, td 
+	{
+		border: 1px solid;
+		border-color: #8B4513;
+		text-align: center;
+		border-spacing: 0;
+	}	
+}
+.dugmad input 
+{
+	width: 130px; 
+	height: 40px;
+	text-decoration: bold;
+	background-color: #8B4513; 
+	color: white;
+	border-radius: 13px;
+	border-color: #8B4513;
+	position:relative;
+	left:65px;
+}

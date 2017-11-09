@@ -1,0 +1,108 @@
+@media only screen and (max-width: 700px) 
+{
+    h1, .lijevo, .podnaslov
+	{
+	   margin-left:10%;
+	}
+	.podnaslov p
+	{
+		text-align: right;
+		position: relative;
+		top: -45px;
+		left:0%;
+		margin-right:15%;
+	}
+	.sporedni
+	{
+		margin-left:15%;
+	}
+	textarea 
+	{
+		margin-left: 40%;
+		display:block;
+	}
+	table 
+	{
+		border: 1px solid;
+		border-color: #8B4513;
+		border-spacing: 0;
+		text-align: center;
+		width: 400px;
+		height: 150px;
+	}
+	th, td 
+	{
+		border: 1px solid;
+		border-color: #8B4513;
+		text-align: center;
+		border-spacing: 0;
+	}
+	.buttoni
+	{
+		position:center;
+		margin-bottom:30px;
+		margin-left:-5%;
+	}
+}
+
+.lijevo, .podnaslov, h1 
+{
+	margin-left: 20px;
+	text-align: left;
+	color:#432109;
+}
+
+.podnaslov p
+{
+	text-align: right;
+	position: relative;
+	right: 250px;
+	top: -45px;
+}
+
+.tabela 
+{
+	position:relative;
+	left: 300px;
+	top: -118px;
+	
+}
+
+.donjiDio 
+{
+	text-align:center;
+	position:relative;
+	top:-80px;
+	color:white;
+	background-color:#8B4513;
+}
+
+.sporedni
+{
+	text-align: center;
+	margin-right: 90px;
+	color:#432109;	
+}
+
+.komentari 
+{
+	position:relative;
+	left: 30%;
+}
+
+.buttoni
+{
+	position:relative;
+	left: 40%;
+	margin-bottom:30px;
+}
+
+button 
+{
+	background-color:#a396a3;
+	color:black;
+	width: 30px;
+	height:45px;
+	display:inline;
+	text-align:center;
+}
