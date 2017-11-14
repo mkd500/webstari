@@ -1,0 +1,31 @@
+#lista1 {
+	display:none;
+	list-style-type:none;
+    list-style: none;
+}
+
+#lista1 > li:before{
+	content:"-";
+
+}
+
+#listakontejner1{
+	cursor:pointer;
+}
+
+
+#lista2 {
+	display:none;
+	list-style-type:none;
+    list-style: none;
+}
+
+#lista2 > li:before{
+	
+	content:"-";
+}
+
+#listakontejner2{
+	cursor:pointer;
+}
+
