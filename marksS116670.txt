@@ -1,0 +1,6 @@
+C,B,A,E,D
+A: Dobar dizajn. Validan html i css kod. 4. zadatak ne radi ispravno, tj. MENU ne vrši svoju funkciju. Html kod nije èitljiv, jer nisu poravnati uvuèeni dijelovi koda.
+B: Ispravno uraðeni svi zadaci. Validan html i css kod. U input textu je korišten value, pa je potrebno brisati text pa tek onda unijeti novi. Html kod nije èitljiv, jer div-ovi nisu uvuèeni.
+C: Ispravno uraðeni svi zadaci. Èitljiv kod. Validan html i css kod. Nema ponavljanja koda. Dobar dizajn.
+D: Èitljiv kod. U prvom zadatku nema menu-a. U drugom zadatku komentari bi trebali biti prostor za unos teksta. U treæem zadatku nema linkova na predviðenim mjestima u tabeli. Peti zadatak ne radi ispravno za statistiku i komentare, tj. ne vide se svi dijelovi na malim ekranima. Stranice nisu validirane.
+E: Èitljiv kod. 4. zadatak ne radi ispravno, tj. MENU ne vrši svoju funkciju. Html i css kod nisu validni. Ima ponavljanja css koda. U prvom zadatku je dizajn malo nejasan, zato što forme login i registracija nisu jasno istaknute.
