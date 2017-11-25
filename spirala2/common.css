@@ -1,0 +1,67 @@
+@media only screen and (max-width: 700px) 
+{
+	menu ul 
+	{
+		list-style-type: none;
+	}
+	.menu li a 
+	{
+		display: block;
+		font-size: 20px;
+		padding:1px;
+		text-decoration:underline;
+	}
+}
+body 
+{
+	background-color: #CD6600;
+	margin:0;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	overflow-x: hidden;
+}
+
+.zaglavlje 
+{
+	margin-left: 0;
+	margin-right:0;
+	background-color:#8B4513;
+	padding-bottom:2px;
+	padding-top:2px;
+}
+
+.menu ul li 
+{
+	display: inline;
+	text-align:left;
+	padding: 20px;
+}
+
+.menu a 
+{
+	font-size: 30px;
+	color: white;
+	text-decoration:none; 
+	padding:10px;
+}
+
+table 
+{
+	position:relative;
+	left: 40px;
+	border: 7px solid;
+	border-color: #8B4513;
+	border-spacing: 3px;
+	text-align: center;
+	width: 800px;
+	height: 300px;
+}
+th, td 
+{
+	border: 2px solid;
+	border-color: #8B4513;
+	text-align: center;
+	border-spacing: 1px;
+}
+
+

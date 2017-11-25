@@ -1,0 +1,137 @@
+
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<TITLE>Login</TITLE>
+</HEAD>
+<BODY>
+	<meta charset="UTF-8">
+	<link rel ="stylesheet" type="text/css" href="common.css">
+	<link rel ="stylesheet" type="text/css" href="login.css">
+	<!--<script type="text/javascript" src="js/validacija.js"></script> -->
+
+	<div class="zaglavlje">
+		<div class="menu">
+			<ul id="meni">
+				<li><img src="http://wt.com.mx/images/logo-dark@2x.png" alt="Logo"></li>
+				<li><a href="Login.html">Login</a></li>
+				<li><a href="Statistika.html">Statistika</a></li>
+				<li><a href="unoskomentara.html">Komentari</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="login">
+		<h1>Prijava:</h1>
+		<p class="email">
+			<input type="text" name="email" placeholder="Adresa e-mail poste">
+		</p>
+		<p class="password">
+			<input type="text" name="password" placeholder="Lozinka">
+		</p>
+		<p class="submit">
+			<input type="submit" value="Prijava">
+		</p>
+	</div>
+
+	<div id="registracijaStudenta" class="registracijaStudenta">
+		<h1>Registracija studenta:</h1>
+		
+			<p class="imeIPrezime">
+				<input type="text" name="imeIPrezime" placeholder="Ime i prezime">
+			</p>
+			<p class="akGodina">
+				<input type="text" name="akGodina" placeholder="Akademska godina 20AB/20CD">
+			</p>
+			<p class="index">
+				<input type="text" name="index" placeholder="Index">
+			</p>
+			<p class="grupe">
+				<label class="izbor">Nastavna grupa:</label>
+				<select class="grupa">
+					<option value="prva">I</option>
+					<option value="druga">II</option>
+					<option value="treca">III</option>
+					<option value="cetvrta">IV</option>
+					<option value="peta">V</option>
+					<option value="sesta">VI</option>
+					<option value="sedma">VII</option>
+				</select>
+			</p>
+			<p class="password">
+				<input type="text" name="password" placeholder="Nova lozinka">
+			</p>
+			<p class="potvrda">
+				<input type="text" name="potvrda" placeholder="Potvrda lozinke">
+			</p>
+			<p class="url">
+				<input type="text" name="url" placeholder="url​">
+			</p>
+			<p class="ssh">
+				<input type="text" name="ssh" placeholder="ssh">
+			</p>
+			<p id="registrujStudent" class="registrujStudent">
+				<input type="submit" value="Registracija studenta">
+			</p>
+			<p id="registrujNastavnik" class="registrujNastavnik">
+				<input type="submit" value="Registracija nastavnika" onclick="promijeni_formu()">
+			</p>
+			<button onclick="promijeni_formu()">Registruj nastavnika</button>
+	</div>
+	
+	<div id="registracijaNastavnika" class="registracijaNastavnika">
+		<h1>Registracija nastavnika:</h1>
+		
+			<p class="imeIPrezime">
+				<input type="text" name="imeIPrezime" placeholder="Ime i prezime" onfocus="Validacija.validirajImeIPrezime(this.value)">
+			</p>
+			<p class="username">
+				<input type="text" name="username" placeholder="Korisničko ime">
+			</p>
+			<p class="email">
+				<input type="text" name="email" placeholder="Adresa e-mail poste">
+			</p>
+			<p class="password">
+				<input type="text" name="password" placeholder="Nova lozinka">
+			</p>
+			<p class="potvrda">
+				<input type="text" name="potvrda" placeholder="Potvrda lozinke">
+			</p>
+			<p class="akGodina">
+				<input type="text" name="akGodina" placeholder="Akademska godina 20AB/20CD">
+			</p>
+			<p class="semestar">
+				<label class="izbor">Semestar:</label>
+				<select class="izborSemestra">
+					<option value="0">Zimski</option>
+					<option value="1">Ljetni</option>
+				</select>
+			</p>
+			<p class="regex">
+				<input type="text" name="regex" placeholder="Regex za naziv repozitorija">
+			</p>
+			<p class="brGrupa">
+				<label class="izbor">Max br. grupa:</label>
+				<input type="number" name="brGrupaIzbor" min="1" max="100">
+			</p>
+			
+			<p class="url">
+				<input type="text" name="url" placeholder="url">
+			</p>
+			<p class="ssh">
+				<input type="text" name="ssh" placeholder="ssh">
+			</p>
+			<p id="registrujNastavnik" class="registrujNastavnik">
+				<input type="submit" value="Registracija nastavnika">
+			</p>
+			<p id="registrujStudent" class="registrujStudent">
+				<input type="submit" value="Registracija studenta" onclick="promijeni_formu()">
+			</p>
+			<button onclick="promijeni_formu()">Registruj studenta</button>
+	</div>
+	<p id="demo"></p>
+
+	<script type="text/javascript" src="js/funkcije.js"></script>
+</BODY>
+</HTML>
+
