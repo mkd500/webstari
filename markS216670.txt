@@ -1,0 +1,6 @@
+﻿D,E,A,B,C
+A: Urađeni svi zadaci. Validna sintaksa js. Jedan error u login.html. Prilikom prebacivanja sa forme studenta na formu nastavnika i obrnuto, one se ne refrešuju, tj. u slučaju da se naprave greške prilikom unosa podataka kod registracije studenta i onda se pređe na registraciju nastavnika, greške vezane za formu studenta se i dalje javljaju. Početna forma je registracija nastavnika, a trebala bi biti registracija studenta, kako je naglašeno u zadatku,  
+B: Validna sintaksa js-a. Nije urađen četvrti zadatak. Kod unosa ssh i url uvijek javlja grešku, čak i prilikom ispravnog unosa. Malo je zbunjujuće što su zadaci u posebnim folderima,
+C: Prazan folder,
+D: Urađeni svi zadaci. Validna sintaksa js-a. Kod unosa ssh i url uvijek javlja grešku, čak i prilikom ispravnog unosa. Kod unosa imena i prezimena, u slučaju da se unese crtica, javlja grešku,
+E: Urađeni svi zadaci. Validna sintaksa js-a. Kod unosa ssh i url uvijek javlja grešku, čak i prilikom ispravnog unosa. Validacija imena i prezimea ne radi ispravno. Ispis greške prilikom pogrešnog unosa je slabo uočljiv,
