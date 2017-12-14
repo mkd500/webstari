@@ -1,0 +1,12 @@
+
+ ###### 
+Zadatak 2 ispravno urapen; Pametna upotreba komenta "ne provjerava da li se malo, veliko slovo i broj pojavljuju bar jednom"; Duina emaila nije bila propisana zadatkom, ali je posvefeno dosta panje da bude ispravan username (da pohinje i zavrava slovom); URL i SSH ne trebaju zavravati znakom tahka, ali ovo lihno ne bih uzeo za zlo jer u tekstu zadatka stoji tahka na kraju primjera (samo to je to tahka od kraja rehenice a ne od primjera); Zadatak 1 vefinom ispravan, ali je code mogao biti uredniji i bolje napisan; Nije bilo reheno da max grupa moe biti samo 99; Neispravna validacija imena, nisu podrana slova h f p i td, crtice i apostrofi su podrani ali se urahunavaju u duinu rijehi; Prvi put kad se klikne na dugme registruj nastavnika nita se ne desi; Postoji trefe dugme na dnu forme koje isto swapa forme; Dugmad nisu konzistentna te swapaju poziciju izmepu formi - loa praksa; Zadatak 3 nije urapen; Zadatak 4 nije urapen; HTML nije validiran, jako puno erora i duplicirani ID; Savjet: ne mora pisati if( uslov )return true else return false - moe pisati direktno return uslov;
+
+ ###### 
+uradjeni samo prvi i drugi zadatak, forme za nastavnika i studenta se ispravno pojavljuju, regex za password ne provjerava da li se malo, veliko slovo i broj pojavljuju bar jednom, regex za ime i prezime ne podržava slova sa kvakicama
+
+ ###### 
+Promjena formi klikom na dugme radi. Na formi se pojavljuje dugme viska. Ni jedna validacija ne prikazuje poruku na formi. Dio za unos komentara uopste nije radjen
+
+ ###### 
+Stranica izgleda lijepo i pregledno. Uradjeni su neki zadaci sa spirale ali je iz nekog razloga zakomentarisana linija koja ukljucuje validacija.js fajl. HTML nije validan, ima ponovljenih id-eva. Kod je poprilicno citljiv. Postoji validacija fajl ali kada se ukljuci ne desava se nista. Kada sam pokusala preko funkcije u javascriptu testirati hardkodirane podatke dobijem error TypeError: email.value is undefined ili slicne errore ali za druga polja. Nije uradjen zadnji zadatak vezan za unoskomentara.html.
