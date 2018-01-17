@@ -1,0 +1,6 @@
+B,A,D,E,C
+A: Ispravno uradjen prvi zadatak. Prilikom klika na Nastavnik i Unos spiska dolazi do greske, tacnije ERR_ABORTED,
+B: Ispravno uradjen prvi zadatak. Uspjesno kreiranje izvjestaja i unos spiska. Greska prilikom generisanja bodova,
+C: Kreiran je file kreirajFajl.js, ali nema mogućnosti kreiranja file-a preko stranice. Ostali zadaci nisu uradjeni,
+D: Uradjeni drugi, treci i peti zadatak. Nema mogucnosti kreiranja izvjestaja niti unosa spiska na stranici. Ne moze se pokrenuti putem localhosta,
+E: Uradjeni drugi, treci i peti zadatak. Stranica se ne moze pokrenuti putem localhosta. Ne moze se kreirati izvjestaj, niti unijeti spisak na stranici,
